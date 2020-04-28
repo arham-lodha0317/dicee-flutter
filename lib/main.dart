@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,7 +35,7 @@ class _DicePageState extends State<DicePage> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Row(
+      child: Column(
         children: <Widget>[
           Expanded(
             child: FlatButton(
